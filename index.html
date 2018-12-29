@@ -47,7 +47,7 @@
 		        <div class='row p-4' style="position: absolute; width: 100%; bottom: 0px;">
 		        	<h1 class="display-1 text-blue">Дизайн-система портала <b class="tv-800">"ШколаОнлайн"</b></h1>
 		        	<p class="display-5 w-100">Принципы дизайна системы</p><br>
-		        	<small class="text-muted">Version: 0.02</small>
+		        	<small class="text-muted">Version: 0.03</small>
 		        </div>
 		    </div>
 		</header>
@@ -126,14 +126,32 @@
 			<h2 class='display-3'>Логотип</h2>
 
 			<h2 class='display-5 mt-3'>Полная версия</h2>
-			<div class='logo-card text-main'><img src='img/logo.png' alt='logo'></div>
-			<div class='logo-card text-main'><img src='img/logo-black.png' alt='logo'></div>
-			<div class='logo-card text-main bg-main'><img src='img/logo-white.png' alt='logo'></div>
+			<div class='logo-card text-main'>
+				<img src='img/logo.png' alt='logo'>
+				<a class="print-link" href='img/logo.png' download><i class='fas fa-download'></i></a>
+			</div>
+			<div class='logo-card text-main'>
+				<img src='img/logo-black.png' alt='logo'>
+				<a class="print-link" href='img/logo-black.png' download><i class='fas fa-download'></i></a>
+			</div>
+			<div class='logo-card text-main bg-main'>
+				<img src='img/logo-white.png' alt='logo'>
+				<a class="print-link" href='img/logo-white.png' download><i class='fas fa-download'></i></a>
+			</div>
 
 			<h2 class='display-5 mt-3'>Компактная версия</h2>
-			<div class='logo-card text-white'><img src='img/logo_small.png' alt='logo'></div>
-			<div class='logo-card text-main'><img src='img/logo-black_small.png' alt='logo'></div>
-			<div class='logo-card text-white bg-main'><img src='img/logo-white_small.png' alt='logo'></div>
+			<div class='logo-card text-white'>
+				<img src='img/logo_small.png' alt='logo'>
+				<a class="print-link" href='img/logo_small.png' download><i class='fas fa-download'></i></a>
+			</div>
+			<div class='logo-card text-main'>
+				<img src='img/logo-black_small.png' alt='logo'>
+				<a class="print-link" href='img/logo-black_small.png' download><i class='fas fa-download'></i></a>
+			</div>
+			<div class='logo-card text-white bg-main'>
+				<img src='img/logo-white_small.png' alt='logo'>
+				<a class="print-link" href='img/logo-white_small.png' download><i class='fas fa-download'></i></a>
+			</div>
 
 			<h2 class='display-5 mt-3'>Правила использования</h2>
 			<p>В зависимости от особенностей площадки размещения можно выбрать одну из представленных версий логотипа. Для размещения на темном фоне используется белая версия логотипа, для размещения на белом - синяя версия логотипа. Темная версия логотипа сделана для печати. Минимальный отступ вокруг логотипа - 20px(для печати - 0.3cm)</p>
@@ -151,24 +169,75 @@
 
 			<h2 class='display-5 mt-3'>Основные</h2>
 			<div class='row'>
-				<div class="col-md-4">
-					<div class='b1main' style="border-radius: 0.5rem">
-						<div class='color-card text-white bg-main'></div>
-						<div class='color-explain'><b>Black</b><br/>#151515</div>
+				<div class="col-12 mt-4">
+					<div class='b1main bg-main text-white' style="border-radius: 0.5rem">
+						<div class='color-explain'>
+							<div class="row">
+								<div class="col-5">
+									<h3>Black</h3>
+								</div>
+								<div class="col-2">
+									<h4>HEX</h4>
+									<code>#151515</code>
+								</div>
+								<div class="col-2">
+									<h4>RGB</h4>
+									<code>21-21-21</code>
+								</div>
+								<div class="col-2">
+									<h4>CMYK</h4>
+									<code>0-0-0-92</code>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 
-				<div class="col-md-4">
-					<div class='b1main' style="border-radius: 0.5rem">
-						<div class='color-card bg-white'></div>
-						<div class='color-explain'><b>White</b><br/>#FFFFFF</div>
+				<div class="col-12 mt-4">
+					<div class='b1main bg-white' style="border-radius: 0.5rem">
+						<div class='color-explain'>
+							<div class="row">
+								<div class="col-5">
+									<h3>White</h3>
+								</div>
+								<div class="col-2">
+									<h4 class='text-main'>HEX</h4>
+									<code class='text-main'>#FFFFFF</code>
+								</div>
+								<div class="col-2">
+									<h4 class='text-main'>RGB</h4>
+									<code class='text-main'>255-255-255</code>
+								</div>
+								<div class="col-2">
+									<h4 class='text-main'>CMYK</h4>
+									<code class='text-main'>0-0-0-0</code>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 
-				<div class="col-md-4">
-					<div class='b1main' style="border-radius: 0.5rem">
-						<div class='color-card bg-blue'></div>
-						<div class='color-explain'><b>Blue</b><br/>#162eae</div>
+				<div class="col-12 mt-4">
+					<div class='b1blue bg-blue text-white' style="border-radius: 0.5rem">
+						<div class='color-explain'>
+							<div class="row">
+								<div class="col-5">
+									<h3>Blue</h3>
+								</div>
+								<div class="col-2">
+									<h4>HEX</h4>
+									<code>#162EAE</code>
+								</div>
+								<div class="col-2">
+									<h4>RGB</h4>
+									<code>22-46-174</code>
+								</div>
+								<div class="col-2">
+									<h4>CMYK</h4>
+									<code>87-74-0-32</code>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -176,17 +245,51 @@
 			<h2 class='display-5 mt-3'>Фон</h2>
 
 			<div class='row'>
-				<div class="col-md-4">
+				<div class="col-12 mt-4">
 					<div class='b1main' style="border-radius: 0.5rem">
-						<div class='color-card' style='background: #fff'></div>
-						<div class='color-explain'><b>White</b><br/>#FFFFFF</div>
+						<div class='color-explain'>
+							<div class="row">
+								<div class="col-5">
+									<h3>White</h3>
+								</div>
+								<div class="col-2">
+									<h4 class='text-main'>HEX</h4>
+									<code class='text-main'>#FFFFFF</code>
+								</div>
+								<div class="col-2">
+									<h4 class='text-main'>RGB</h4>
+									<code class='text-main'>255-255-255</code>
+								</div>
+								<div class="col-2">
+									<h4 class='text-main'>CMYK</h4>
+									<code class='text-main'>0-0-0-0</code>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 
-				<div class="col-md-4">
-					<div class='b1main' style="border-radius: 0.5rem">
-						<div class='color-card' style='background: #eee'></div>
-						<div class='color-explain'><b>Gray-lighter</b><br/>#EEEEEE</div>
+				<div class="col-12 mt-4">
+					<div class='b1main' style='background: #eee; border-radius: 0.5rem'>
+						<div class='color-explain'>
+							<div class="row">
+								<div class="col-5">
+									<h3>Gray-lighter</h3>
+								</div>
+								<div class="col-2">
+									<h4 class='text-main'>HEX</h4>
+									<code class='text-main'>#EEEEEE</code>
+								</div>
+								<div class="col-2">
+									<h4 class='text-main'>RGB</h4>
+									<code class='text-main'>238-238-238</code>
+								</div>
+								<div class="col-2">
+									<h4 class='text-main'>CMYK</h4>
+									<code class='text-main'>0-0-0-7</code>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 
@@ -195,84 +298,517 @@
 			<h2 class='display-5 mt-3'>Текст</h2>
 
 			<div class='row'>
-				<div class="col-md-4">
-					<div class='b1main' style="border-radius: 0.5rem">
-						<div class='color-card' style='background: #151515'></div>
-						<div class='color-explain'><b>Black</b><br/>#151515</div>
+
+				<div class="col-12 mt-4">
+					<div class='b1main bg-main text-white' style="border-radius: 0.5rem">
+						<div class='color-explain'>
+							<div class="row">
+								<div class="col-5">
+									<h3>Black</h3>
+								</div>
+								<div class="col-2">
+									<h4>HEX</h4>
+									<code>#151515</code>
+								</div>
+								<div class="col-2">
+									<h4>RGB</h4>
+									<code>21-21-21</code>
+								</div>
+								<div class="col-2">
+									<h4>CMYK</h4>
+									<code>0-0-0-92</code>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 
-				<div class="col-md-4">
-					<div class='b1main' style="border-radius: 0.5rem">
-						<div class='color-card' style='background: #222222'></div>
-						<div class='color-explain'><b>Gray-darker</b><br/>#222222</div>
+				<div class="col-12 mt-4">
+					<div class='b1main text-white' style="border-radius: 0.5rem; background: #222">
+						<div class='color-explain'>
+							<div class="row">
+								<div class="col-5">
+									<h3>Gray-darker</h3>
+								</div>
+								<div class="col-2">
+									<h4>HEX</h4>
+									<code>#222222</code>
+								</div>
+								<div class="col-2">
+									<h4>RGB</h4>
+									<code>34-34-34</code>
+								</div>
+								<div class="col-2">
+									<h4>CMYK</h4>
+									<code>0-0-0-87</code>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 mt-4">
+					<div class='b1main text-white' style="border-radius: 0.5rem; background: #666666">
+						<div class='color-explain'>
+							<div class="row">
+								<div class="col-5">
+									<h3>Gray-dark</h3>
+								</div>
+								<div class="col-2">
+									<h4>HEX</h4>
+									<code>#666666</code>
+								</div>
+								<div class="col-2">
+									<h4>RGB</h4>
+									<code>102-102-102</code>
+								</div>
+								<div class="col-2">
+									<h4>CMYK</h4>
+									<code>0-0-0-60</code>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 
-				<div class="col-md-4">
-					<div class='b1main' style="border-radius: 0.5rem">
-						<div class='color-card' style='background: #666666'></div>
-						<div class='color-explain'><b>Gray-dark</b><br/>#666666</div>
+				<div class="col-12 mt-4">
+					<div class='b1main text-white' style="border-radius: 0.5rem; background: #9F9F9F">
+						<div class='color-explain'>
+							<div class="row">
+								<div class="col-5">
+									<h3>Gray</h3>
+								</div>
+								<div class="col-2">
+									<h4>HEX</h4>
+									<code>#9F9F9F</code>
+								</div>
+								<div class="col-2">
+									<h4>RGB</h4>
+									<code>159-159-159</code>
+								</div>
+								<div class="col-2">
+									<h4>CMYK</h4>
+									<code>0-0-0-38</code>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
-			</div>
-			<div class='row mt-4'>
 
-				<div class="col-md-4">
-					<div class='b1main' style="border-radius: 0.5rem">
-						<div class='color-card' style='background: #9F9F9F'></div>
-						<div class='color-explain'><b>Gray</b><br/>#9F9F9F</div>
+				<div class="col-12 mt-4">
+					<div class='b1main text-main' style="border-radius: 0.5rem; background: #E1E1E1">
+						<div class='color-explain'>
+							<div class="row">
+								<div class="col-5">
+									<h3>Gray-light</h3>
+								</div>
+								<div class="col-2">
+									<h4>HEX</h4>
+									<code class='text-main'>#E1E1E1</code>
+								</div>
+								<div class="col-2">
+									<h4>RGB</h4>
+									<code class='text-main'>225-225-225</code>
+								</div>
+								<div class="col-2">
+									<h4>CMYK</h4>
+									<code class='text-main'>0-0-0-12</code>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 
-				<div class="col-md-4">
-					<div class='b1main' style="border-radius: 0.5rem">
-						<div class='color-card' style='background: #E1E1E1'></div>
-						<div class='color-explain'><b>Gray-light</b><br/>#E1E1E1</div>
-					</div>
-				</div>
 
-				<div class="col-md-4">
-					<div class='b1main' style="border-radius: 0.5rem">
-						<div class='color-card' style='background: #FFFFFF'></div>
-						<div class='color-explain'><b>White</b><br/>#FFFFFF</div>
+				<div class="col-12 mt-4">
+					<div class='b1main bg-white' style="border-radius: 0.5rem">
+						<div class='color-explain'>
+							<div class="row">
+								<div class="col-5">
+									<h3>White</h3>
+								</div>
+								<div class="col-2">
+									<h4 class='text-main'>HEX</h4>
+									<code class='text-main'>#FFFFFF</code>
+								</div>
+								<div class="col-2">
+									<h4 class='text-main'>RGB</h4>
+									<code class='text-main'>255-255-255</code>
+								</div>
+								<div class="col-2">
+									<h4 class='text-main'>CMYK</h4>
+									<code class='text-main'>0-0-0-0</code>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
 
 			<h2 class='display-5 mt-3'>Дополнительные</h2>
 
-			<div class='row mt-4'>
+			<div class='row'>
 
-				<div class="col-md-4">
-					<div class='b1main' style="border-radius: 0.5rem">
-						<div class='color-card' style='background: #EDE31C'></div>
-						<div class='color-explain'><b>Yellow</b><br/>#EDE31C</div>
+				<div class="col-12 mt-4">
+					<div class='b1main text-white' style="border-radius: 0.5rem; background: #071871">
+						<div class='color-explain'>
+							<div class="row">
+								<div class="col-5">
+									<h3>Blue-dark</h3>
+								</div>
+								<div class="col-2">
+									<h4>HEX</h4>
+									<code>#071871</code>
+								</div>
+								<div class="col-2">
+									<h4>RGB</h4>
+									<code>7-24-113</code>
+								</div>
+								<div class="col-2">
+									<h4>CMYK</h4>
+									<code>94-79-0-56</code>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 
-				<div class="col-md-4">
-					<div class='b1main' style="border-radius: 0.5rem">
-						<div class='color-card' style='background: #EB1C23'></div>
-						<div class='color-explain'><b>Red</b><br/>#EB1C23</div>
+				<div class="col-12 mt-4">
+					<div class='b1main text-white' style="border-radius: 0.5rem; background: #162EAE">
+						<div class='color-explain'>
+							<div class="row">
+								<div class="col-5">
+									<h3>Blue</h3>
+								</div>
+								<div class="col-2">
+									<h4>HEX</h4>
+									<code>#162EAE</code>
+								</div>
+								<div class="col-2">
+									<h4>RGB</h4>
+									<code>22-46-174</code>
+								</div>
+								<div class="col-2">
+									<h4>CMYK</h4>
+									<code>87-74-0-32</code>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 
-				<div class="col-md-4">
-					<div class='b1main' style="border-radius: 0.5rem">
-						<div class='color-card' style='background: #36C618'></div>
-						<div class='color-explain'><b>Green</b><br/>#36C618</div>
+				<div class="col-12 mt-4">
+					<div class='b1main text-white' style="border-radius: 0.5rem; background: #6F80D7">
+						<div class='color-explain'>
+							<div class="row">
+								<div class="col-5">
+									<h3>Blue-light</h3>
+								</div>
+								<div class="col-2">
+									<h4>HEX</h4>
+									<code>#6F80D7</code>
+								</div>
+								<div class="col-2">
+									<h4>RGB</h4>
+									<code>111-128-215</code>
+								</div>
+								<div class="col-2">
+									<h4>CMYK</h4>
+									<code>48-40-0-16</code>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
-			</div>
-			<div class="row mt-4">
 
-				<div class="col-md-4">
-					<div class='b1main' style="border-radius: 0.5rem">
-						<div class='color-card' style='background: #ED941C'></div>
-						<div class='color-explain'><b>Orange</b><br/>#ED941C</div>
+
+				<div class="col-12 mt-4">
+					<div class='b1main text-white' style="border-radius: 0.5rem; background: #9A9309">
+						<div class='color-explain'>
+							<div class="row">
+								<div class="col-5">
+									<h3>Yellow-dark</h3>
+								</div>
+								<div class="col-2">
+									<h4>HEX</h4>
+									<code>#9A9309</code>
+								</div>
+								<div class="col-2">
+									<h4>RGB</h4>
+									<code>154-147-9</code>
+								</div>
+								<div class="col-2">
+									<h4>CMYK</h4>
+									<code>0-5-94-40</code>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
+
+				<div class="col-12 mt-4">
+					<div class='b1main text-main' style="border-radius: 0.5rem; background: #EDE31C">
+						<div class='color-explain'>
+							<div class="row">
+								<div class="col-5">
+									<h3>Yellow</h3>
+								</div>
+								<div class="col-2">
+									<h4>HEX</h4>
+									<code class='text-main'>#EDE31C</code>
+								</div>
+								<div class="col-2">
+									<h4>RGB</h4>
+									<code class='text-main'>237-227-28</code>
+								</div>
+								<div class="col-2">
+									<h4>CMYK</h4>
+									<code class='text-main'>0-4-88-7</code>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-12 mt-4">
+					<div class='b1main text-main' style="border-radius: 0.5rem; background: #F6F07F">
+						<div class='color-explain'>
+							<div class="row">
+								<div class="col-5">
+									<h3>Yellow-light</h3>
+								</div>
+								<div class="col-2">
+									<h4>HEX</h4>
+									<code class='text-main'>#F6F07F</code>
+								</div>
+								<div class="col-2">
+									<h4>RGB</h4>
+									<code class='text-main'>246-240-127</code>
+								</div>
+								<div class="col-2">
+									<h4>CMYK</h4>
+									<code class='text-main'>0-5-48-4</code>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-12 mt-4">
+					<div class='b1main text-white' style="border-radius: 0.5rem; background: #99090D">
+						<div class='color-explain'>
+							<div class="row">
+								<div class="col-5">
+									<h3>Red-dark</h3>
+								</div>
+								<div class="col-2">
+									<h4>HEX</h4>
+									<code>#99090D</code>
+								</div>
+								<div class="col-2">
+									<h4>RGB</h4>
+									<code>153-9-13</code>
+								</div>
+								<div class="col-2">
+									<h4>CMYK</h4>
+									<code>0-94-92-40</code>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-12 mt-4">
+					<div class='b1main text-white' style="border-radius: 0.5rem; background: #EB1C23">
+						<div class='color-explain'>
+							<div class="row">
+								<div class="col-5">
+									<h3>Red</h3>
+								</div>
+								<div class="col-2">
+									<h4>HEX</h4>
+									<code>#EB1C23</code>
+								</div>
+								<div class="col-2">
+									<h4>RGB</h4>
+									<code>235-28-35</code>
+								</div>
+								<div class="col-2">
+									<h4>CMYK</h4>
+									<code>0-8-88-85</code>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-12 mt-4">
+					<div class='b1main text-white' style="border-radius: 0.5rem; background: #F57E81">
+						<div class='color-explain'>
+							<div class="row">
+								<div class="col-5">
+									<h3>Red-light</h3>
+								</div>
+								<div class="col-2">
+									<h4>HEX</h4>
+									<code>#F57E81</code>
+								</div>
+								<div class="col-2">
+									<h4>RGB</h4>
+									<code>245-126-129</code>
+								</div>
+								<div class="col-2">
+									<h4>CMYK</h4>
+									<code>0-49-47-4</code>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-12 mt-4">
+					<div class='b1main text-white' style="border-radius: 0.5rem; background: #1D8108">
+						<div class='color-explain'>
+							<div class="row">
+								<div class="col-5">
+									<h3>Green-dark</h3>
+								</div>
+								<div class="col-2">
+									<h4>HEX</h4>
+									<code>#1D8108</code>
+								</div>
+								<div class="col-2">
+									<h4>RGB</h4>
+									<code>29-129-8</code>
+								</div>
+								<div class="col-2">
+									<h4>CMYK</h4>
+									<code>78-0-94-49</code>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-12 mt-4">
+					<div class='b1main text-white' style="border-radius: 0.5rem; background: #36C618">
+						<div class='color-explain'>
+							<div class="row">
+								<div class="col-5">
+									<h3>Green</h3>
+								</div>
+								<div class="col-2">
+									<h4>HEX</h4>
+									<code>#36C618</code>
+								</div>
+								<div class="col-2">
+									<h4>RGB</h4>
+									<code>54-198-24</code>
+								</div>
+								<div class="col-2">
+									<h4>CMYK</h4>
+									<code>73-0-88-22</code>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-12 mt-4">
+					<div class='b1main text-white' style="border-radius: 0.5rem; background: #88E375">
+						<div class='color-explain'>
+							<div class="row">
+								<div class="col-5">
+									<h3>Green-light</h3>
+								</div>
+								<div class="col-2">
+									<h4>HEX</h4>
+									<code>#88E375</code>
+								</div>
+								<div class="col-2">
+									<h4>RGB</h4>
+									<code>136-227-117</code>
+								</div>
+								<div class="col-2">
+									<h4>CMYK</h4>
+									<code>40-0-48-11</code>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-12 mt-4">
+					<div class='b1main text-white' style="border-radius: 0.5rem; background: #9A5C09">
+						<div class='color-explain'>
+							<div class="row">
+								<div class="col-5">
+									<h3>Orange-dark</h3>
+								</div>
+								<div class="col-2">
+									<h4>HEX</h4>
+									<code>#9A5C09</code>
+								</div>
+								<div class="col-2">
+									<h4>RGB</h4>
+									<code>154-92-9</code>
+								</div>
+								<div class="col-2">
+									<h4>CMYK</h4>
+									<code>0-40-94-40</code>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-12 mt-4">
+					<div class='b1main text-white' style="border-radius: 0.5rem; background: #ED941C">
+						<div class='color-explain'>
+							<div class="row">
+								<div class="col-5">
+									<h3>Orange</h3>
+								</div>
+								<div class="col-2">
+									<h4>HEX</h4>
+									<code>#ED941C</code>
+								</div>
+								<div class="col-2">
+									<h4>RGB</h4>
+									<code>237-148-28</code>
+								</div>
+								<div class="col-2">
+									<h4>CMYK</h4>
+									<code>0-38-88-7</code>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-12 mt-4">
+					<div class='b1main text-white' style="border-radius: 0.5rem; background: #F6C37F">
+						<div class='color-explain'>
+							<div class="row">
+								<div class="col-5">
+									<h3>Orange-light</h3>
+								</div>
+								<div class="col-2">
+									<h4>HEX</h4>
+									<code>#F6C37F</code>
+								</div>
+								<div class="col-2">
+									<h4>RGB</h4>
+									<code>246-195-127</code>
+								</div>
+								<div class="col-2">
+									<h4>CMYK</h4>
+									<code>0-21-48-4</code>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
 			</div>
 
 		</section>
@@ -282,19 +818,27 @@
 
 			<h2 class='display-5 mt-3'>Шрифты:</h2>
 			<div class='row'>
-				<div class="col-md-6">
-					<div class='b1main p-3' style="border-radius: 0.5rem">
-						<h3>Gilroy</h3>
+				<div class="col-12 mt-4">
+					<div class='b1main p-3 card-hover' style="border-radius: 0.5rem">
+						<h3 class='f-gilroy'>Gilroy</h3>
 						<p class='f-gilroy h-4'>АаБбВвГгДдЕеЁёЖжЗзИиЙйКкЛлМмНнОоПпРрСсТтУуФфХхЦцЧчШшЩщЪъЫыЬьЭэЮюЯя</p>
 						<p class='f-gilroy h-4'>AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz</p>
 					</div>
 				</div>
 
-				<div class="col-md-6">
-					<div class='b1main p-3' style="border-radius: 0.5rem">
-						<h3>Segoe UI</h3>
+				<div class="col-12 mt-4">
+					<div class='b1main p-3 card-hover' style="border-radius: 0.5rem">
+						<h3 class='f-segoe'>Segoe UI</h3>
 						<p class='f-segoe h-4'>АаБбВвГгДдЕеЁёЖжЗзИиЙйКкЛлМмНнОоПпРрСсТтУуФфХхЦцЧчШшЩщЪъЫыЬьЭэЮюЯя</p>
 						<p class='f-segoe h-4'>AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz</p>
+					</div>
+				</div>
+
+				<div class="col-12 mt-4">
+					<div class='b1main p-3 card-hover' style="border-radius: 0.5rem">
+						<h3 class='f-mono'>Anonymous Pro</h3>
+						<p class='f-mono h-4'>АаБбВвГгДдЕеЁёЖжЗзИиЙйКкЛлМмНнОоПпРрСсТтУуФфХхЦцЧчШшЩщЪъЫыЬьЭэЮюЯя</p>
+						<p class='f-mono h-4'>AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz</p>
 					</div>
 				</div>
 
@@ -307,11 +851,115 @@
 			<h4 class='tv-800 f-gilroy'>font-weight: 800;</h4>
 			<h4 class='tv-900 f-gilroy'>font-weight: 900;</h4>
 
+			<h2 class='display-5'>Размеры:</h2>
+			<p>В данной таблице приведены различные стили текстов, которые следует использовать при создание приложений. Для каждого стиля текста задан свой шрифт, размер и интерлиньяж. Размер и интерлиньяж заданы прикселях(px)</p>
+			<table class='table'>
+				<tbody>
+					<tr>
+						<td>Элемент</td>
+						<td>Шрифт</td>
+						<td>Размер в rem</td>
+						<td>Размер / интерлиньяж в px</td>
+					</tr>
+					<tr>
+						<td>H1</td>
+						<td>Gilroy</td>
+						<td>2.6575</td>
+						<td>48 / 64</td>
+					</tr>
+					<tr>
+						<td>H2</td>
+						<td>Gilroy</td>
+						<td>2.126</td>
+						<td>38 / 48</td>
+					</tr>
+					<tr>
+						<td>H3</td>
+						<td>Gilroy</td>
+						<td>1.86025</td>
+						<td>34 / 40</td>
+					</tr>
+					<tr>
+						<td>H4</td>
+						<td>Gilroy</td>
+						<td>1.5945</td>
+						<td>30 / 38</td>
+					</tr>
+					<tr>
+						<td>H5</td>
+						<td>Gilroy</td>
+						<td>1.32875</td>
+						<td>24 / 30</td>
+					</tr>
+					<tr>
+						<td>H6</td>
+						<td>Gilroy</td>
+						<td>1.063</td>
+						<td>20 / 28</td>
+					</tr>
+					<tr>
+						<td>.display-1</td>
+						<td>Gilroy</td>
+						<td>6</td>
+						<td>110 / 110</td>
+					</tr>
+					<tr>
+						<td>.display-2</td>
+						<td>Gilroy</td>
+						<td>5.5</td>
+						<td>100 / 100</td>
+					</tr>
+					<tr>
+						<td>.display-3</td>
+						<td>Gilroy</td>
+						<td>4.5</td>
+						<td>80 / 80</td>
+					</tr>
+					<tr>
+						<td>.display-4</td>
+						<td>Gilroy</td>
+						<td>3.5</td>
+						<td>64 / 64</td>
+					</tr>
+					<tr>
+						<td>p</td>
+						<td>Segoe UI</td>
+						<td>1</td>
+						<td>18 / 24</td>
+					</tr>
+					<tr>
+						<td>lead</td>
+						<td>Segoe UI</td>
+						<td>1.32875</td>
+						<td>24 / 30</td>
+					</tr>
+					<tr>
+						<td>code</td>
+						<td>Anonimus Pro</td>
+						<td>0.875</td>
+						<td>16 / 18</td>
+					</tr>
+					<tr>
+						<td>small</td>
+						<td>Segoe UI</td>
+						<td>0.8</td>
+						<td>14 / 16</td>
+					</tr>
+				</tbody>
+			</table>
+
 		</section>
 
 
 		<section id='forms'>
 			<h2 class='display-3'>Формы</h2>
+			<p>
+				Скругления для input: <code>large: 3rem; default: 1rem; small: 1rem;</code><br>
+				Padding для input: <code>large: 0.5rem 1rem; default: 0.4rem 0.8rem; small: 0.25rem 0.5rem;</code><br>
+				Высота input: <code>large: calc(2.993125rem + 2px); default: calc(2.5945rem + 2px); small: calc(1.8951875rem + 2px);</code><br>
+				Размер шрифта для input: <code>large: 1.32875rem; default: 0.9rem; small: 0.930125rem;</code><br>
+				<code>1rem = 18px</code>
+			</p>
 
 			<h2 class='display-5 mt-3'>Кнопки</h2>
 			<div class='mt-3'>
@@ -352,6 +1000,7 @@
 
 			<h2 class='display-5 mt-3'>Inputs</h2>
 			<div class='mt-3'>
+				
 			  <form>
                 <fieldset>
                   <div class="form-group">
@@ -457,6 +1106,15 @@
 
 			<div class="row">
 				<div class="col-lg-3">
+	              <div class="card mb-3">
+	                <div class="card-header">Header</div>
+	                <div class="card-body">
+	                  <h4 class="card-title">Main card title</h4>
+	                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+	                </div>
+	              </div>
+	          	</div>
+				<div class="col-lg-3">
 	              <div class="card text-white bg-primary mb-3">
 	                <div class="card-header">Header</div>
 	                <div class="card-body">
@@ -510,6 +1168,67 @@
 	                </div>
 	              </div>
 	          	</div>
+	          	<div class="col-lg-3">
+	              <div class="card card-hover mb-3">
+	                <div class="card-header">Header</div>
+	                <div class="card-body">
+	                  <h4 class="card-title">Hover card title</h4>
+	                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+	                </div>
+	              </div>
+	          	</div>
+	          	<div class='col-12 mt-4'>
+	          		<h2 class="">Пример использования</h2>
+	          	</div>
+	          	<div class="col-lg-4">
+                    <div class="card">
+                      <div class="card-header"><h2 class='h4'><a href="#">Тест по информатике.  Логика
+                        </a></h2></div>
+                      <div class="card-body">
+                        
+                        <div class="text-muted">Вариант №5.2</div>
+                        <div class="text-muted">Класс: 10</div>
+                        <div class="text-muted">Id: 12</div>
+                        <div class="d-flex align-items-center pt-3 mt-auto">
+                          <div class="col-8 d-flex p-0">
+                            <figure class="profile-picture" style="background-image: url(https://plchldr.co/i/150x150?text=placeholder&bg=162eae
+                                  );background-position: center center;background-size: cover;background-color: #fff;border-radius: 50%;height: 50px;left: 20px;width: 50px;z-index: 3; vertical-align: middle; margin: 0px; margin-right: 10px;">
+                              </figure>
+                            <a href="">
+                              <h4 style="font-weight: 500">Example Example</h4>
+                              <small class="d-block text-muted">Учитель</small>
+                            </a>
+                          </div><div class="ml-auto text-muted p-0 col-4 text-right">
+                                <a href="" class="btn btn-outline-primary ">Пройти</a>
+                              </div>
+                       
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                    
+                            
+                          <div class="card mb-4" style="background: url(https://plchldr.co/i/150x300?text=placeholder&bg=162eae); background-size: cover; background-position: right">
+                            <div class="card-body d-flex flex-column" style="width: 100%; background: linear-gradient(90deg, rgba(255,255,255,1) 60%, rgba(255,255,255,00) 70%, rgba(255,255,255,0) 100%); border-radius: 1rem;">
+                              <a href="" style="width: 60%;">
+                                <h3 style="text-align: left; height: 5.5rem" class="h4">Пользовательское Соглашение</h3>
+                                <div><p class="text-main mb-0 pb-0" style="text-align: left; height: 6.5rem;">Пользовательское Соглашение
+Настоящее Пользовательское Соглашение (Далее Соглашение) ре..</p></div>
+                                
+                                <div class="">
+                                  <div>
+                                    <small class="d-block text-main">05.11.2018 12.13</small>
+                                  </div>
+                                </div>
+                              </a>
+                              <a href="" class="btn btn-outline-danger mt-3" style="width: 50%;">Удалить</a>
+                            </div>
+                          </div>
+                        
+                          
+                          
+                </div>
           
 	    </div>
 
