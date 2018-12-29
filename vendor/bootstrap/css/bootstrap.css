@@ -12,6 +12,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 @import url("https://fonts.googleapis.com/css?family=Raleway:400,700");
+@import url('https://fonts.googleapis.com/css?family=Anonymous+Pro:400,700&subset=cyrillic');
 :root {
   --blue: #162eae;
   --indigo: #6610f2;
@@ -40,7 +41,7 @@
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
   --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --font-family-monospace: 'Anonymous Pro', SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 *,
@@ -57,6 +58,7 @@ html {
   -ms-text-size-adjust: 100%;
   -ms-overflow-style: scrollbar;
   -webkit-tap-highlight-color: transparent;
+  font-size: 18px;
 }
 *::selection {
 /*background: rgba(25, 46, 174, 0.5);*/
@@ -231,7 +233,7 @@ pre,
 code,
 kbd,
 samp {
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: 'Anonymous Pro', SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   font-size: 1em;
 }
 
@@ -550,7 +552,7 @@ mark,
 
 code {
   font-size: 87.5%;
-  color: #e83e8c;
+  color: #eb1c23;
   word-break: break-word;
 }
 
@@ -4690,6 +4692,7 @@ textarea.form-control {
   background-clip: border-box;
   border: 0px solid rgba(0, 0, 0, 0.125);
   border-radius: 1rem;
+  transition: 0.3s;
 }
 
 .card > hr {
@@ -4848,6 +4851,17 @@ textarea.form-control {
 
 .card-group > .card {
   margin-bottom: 15px;
+}
+.card-hover{
+  background: #fff;
+  color: #151515;
+  transition: 0.3s;
+}
+
+.card-hover:hover{
+  background: #162eae;
+  color: #fff;
+  transition: 0.3s;
 }
 
 @media (min-width: 576px) {
@@ -9214,7 +9228,7 @@ button.bg-dark:focus {
 }
 
 .text-monospace {
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: 'Anonymous Pro', SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 .text-justify {
