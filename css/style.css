@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css?family=Anonymous+Pro:400,700&subset=cyrillic');
 section{
   background-color: #fff; 
   background: #fff;
@@ -22,14 +22,13 @@ section{
   border-radius: 0.5rem;
 }
 .color-explain{
-  width: 100%; 
+  width: calc(100% - 50px);
+  margin: 20px; 
   vertical-align: middle; 
   display: inline-block;
-  padding: 25px;
-  color: #fff;
 }
-code{
-  color:#fff;
+.color-explain code{
+  color: #fff;
 }
 .font-card{
   padding: 20px;
@@ -38,18 +37,39 @@ code{
   padding: 20px;
   height: 100px;
   display: inline-block;
+  position: relative;
 }
 .logo-card img{
   height: 100%;
 }
 
-.text-white{color: #fff;}
-.text-main{color: #151515;}
-.text-blue{color: #162eae;}
-.text-yellow{color: #ede31c;}
-.text-red{color: #eb1c23;}
-.text-green{color: #36c618;}
-.text-orange{color: #ed941c;}
+.print-link{
+  opacity: 0;
+  transition: 0.3s;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background: rgba(255,255,255,0.75);
+  width: 100%;
+  height: 100%;
+  padding: 5px 10px;
+  color: #151515;
+}
+.print-link i{
+  color: #151515!important;
+}
+.logo-card:hover .print-link{
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.text-white{color: #fff!important;}
+.text-main{color: #151515!important;}
+.text-blue{color: #162eae!important;}
+.text-yellow{color: #ede31c!important;}
+.text-red{color: #eb1c23!important;}
+.text-green{color: #36c618!important;}
+.text-orange{color: #ed941c!important;}
 
 .bg-white{background: #fff;}
 .bg-main{background: #151515;}
@@ -83,3 +103,4 @@ code{
 
 .f-gilroy{font-family: "Gilroy" !important}
 .f-segoe{font-family: "Segoe UI" !important}
+.f-mono{font-family: 'Anonymous Pro' !important}
